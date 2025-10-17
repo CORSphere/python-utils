@@ -7,6 +7,7 @@ from .correlation.correlation import (
     get_request_method,
 )
 from .correlation.middleware import CorrelationMiddleware
+from .main import configure_logging
 
 __all__ = [
     "JSONFormatter",
@@ -16,4 +17,5 @@ __all__ = [
     "get_request_path",
     "get_request_method",
     "CorrelationMiddleware",
+    "configure_logging",
 ]
