@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "python-utils"
+version = "0.1.0"
+description = "A shared library of Python utilities for implementing reusable application logic across CORSphere's Python services."
+authors = ["Emmanuel Otobo <emmanuel@corsphere.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+fastapi = "^0.104.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
