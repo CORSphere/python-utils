@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "python-utils"
 version = "0.1.0"
-description = "A shared library of Python utilities for implementing reusable application logic across CORSphere's Python services."
+description = "Python package for storing modules containing common functions and application logic reussed across CORSphere's Python services. Each module is put in a separate folder in the `python_utils` directory."
 authors = ["Emmanuel Otobo <emmanuel@corsphere.com>"]
 readme = "README.md"
 

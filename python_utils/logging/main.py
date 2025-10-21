@@ -5,6 +5,9 @@ from .formatter import JSONFormatter
 import os, sys
 
 def configure_logging(app: FastAPI, service_name: str):
+  """
+  Configure logging for FastAPI application with correlation middleware and JSON formatting.
+  """
   try:
     if not app:
       raise ValueError("FastAPI app instance must be provided for logging configuration.")
